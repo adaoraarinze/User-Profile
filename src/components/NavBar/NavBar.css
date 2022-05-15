@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #0d324d7c;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    color:white;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 15px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    width: 30vw;
+}
+  
+.nav-buttons {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;;
+    position: sticky;
+    justify-content: center;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+}
+
+.MuiLink-root{
+    color: white;
+}

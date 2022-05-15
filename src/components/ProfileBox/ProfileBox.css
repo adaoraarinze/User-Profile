@@ -1,0 +1,52 @@
+.profile{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 150px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #0d324d7c;
+}
+
+.display-name{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.button{
+    border: transparent;
+    background-color: transparent ;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.role-boxes{
+    margin-left: 70px;
+}
+
+.text-boxes{
+    float: center;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+
+.bio{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
